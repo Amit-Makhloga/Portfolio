@@ -123,7 +123,7 @@ function About() {
           </div> */}
           <div className="flex items-center justify-center ">
             <button className="border-black border-2 my-1 md:p-5 p-3 w-full md:w-auto text-black tracking-widest hover:bg-black hover:text-white">
-            <a href="https://drive.google.com/file/d/1xXXXocQbPn-yTHuPzkdL3CP9j997I8Z5/view?usp=sharing"   download="Amit_Makhloga_Resume.pdf" >GET MY RESUME</a>
+            <a href="https://drive.google.com/file/d/1kcLDAMQoQUd4E_i7fzvYiGIRteWUk7fP/view?usp=sharing"   download="Amit_Makhloga_Resume.pdf" >GET MY RESUME</a>
               
             </button>
           </div>

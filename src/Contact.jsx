@@ -37,7 +37,7 @@ function Contact() {
               <a href="mailto:amitmakhloga551@gmail.com?subject=Hello Amit&body=Hi Amit, I wanted to reach out to you about...">MESSAGE ME </a>
             </button>
             <button className="border-black border-2 my-1 p-1  md:p-3  w-full md:w-1/2 text-black tracking-widest hover:bg-black hover:text-white">
-              <a href="https://drive.google.com/file/d/1xXXXocQbPn-yTHuPzkdL3CP9j997I8Z5/view?usp=sharing"   download="Amit_Makhloga_Resume.pdf" >GET MY RESUME</a>
+              <a href="https://drive.google.com/file/d/1kcLDAMQoQUd4E_i7fzvYiGIRteWUk7fP/view?usp=sharing"   download="Amit_Makhloga_Resume.pdf" >GET MY RESUME</a>
             </button>
           </div>
 
