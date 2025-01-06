@@ -17,8 +17,8 @@ function Contact() {
                 <p className="text-xl font-semibold pt-4  md:pt-0">Follow Me</p>
                 <div className="list-none text-base pt-4">
 
-                    <li><a href="">Linked In</a></li>
-                    <li><a href="">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/amit-makhloga-058700240/">Linked In</a></li>
+                    <li><a href="https://www.instagram.com/amit_makhloga_20/">Instagram</a></li>
                 </div>
 
             </div>
