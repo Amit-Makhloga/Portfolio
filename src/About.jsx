@@ -102,6 +102,7 @@ function About() {
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Bootstrap</li>
+                  <li>Wordpress</li>
                   <li>Tailwindcss</li>
                   <li>Javascript</li>
                   <li>React.js</li>

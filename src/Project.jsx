@@ -4,6 +4,7 @@ import rentaplace from "../public/rentaplace.png";
 import bookstore from "../public/bookstore.png";
 import weatherapp from "../public/weatherapp.png";
 import homieshub from "../public/homieshub.png";
+import blogify from '../public/blogify.png'
 
 
 
@@ -14,6 +15,39 @@ function Project() {
         <h1 className="md:text-6xl text-3xl opacity-100 font-bold pt-12 md:pt-0">
           Projects.
         </h1>
+
+
+        <div className="flex flex-col md:flex-row md:pt-16 pt-4 ">
+          <div className="flex flex-col md:flex-row items-center">
+            {/* Project Details */}
+            <div className="w-full md:w-1/2 p-4 order-2 md:order-1">
+              <h3 className="font-bold text-xl mb-2">Blogify</h3>
+              <p className="text-gray-600 mb-4 ">
+              Blogify is a full-stack blogging platform built with React.js, Appwrite, and Redux Toolkit, allowing users to create, edit, and manage blog posts with rich text content and image uploads. It supports user authentication, role-based access, and cloud storage, making it a powerful and modern web app for content publishing.
+              </p>
+              <a
+                href="https://blogify-lyart-rho.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Project
+              </a>
+            </div>
+            {/* Image */}
+            <div className="w-full md:w-1/2 mb-4 md:mb-0 border rounded-md order-1 md:order-2  border-black ">
+              <img
+                src={blogify}
+                alt="NIS Project"
+                className="w-full h-auto rounded-md"
+              />
+            </div>
+
+          </div>
+        </div>
+
+
+        
 
         <div className="flex flex-col md:flex-row md:pt-16 pt-4 ">
           <div className="flex flex-col md:flex-row items-center">
@@ -52,7 +86,7 @@ function Project() {
             <div className="w-full md:w-1/2 p-4 order-2 md:order-1">
               <h3 className="font-bold text-xl mb-2">RENTAPLACE</h3>
               <p className="text-gray-600 mb-4 ">
-              A MERN stack project where users can browse and upload rental properties. Features include property listings, user uploads, built with HTML, CSS, JavaScript, Bootstrap, MongoDB, Express, React, and Node.js.
+              A full stack project where users can browse and upload rental properties. Features include property listings, user uploads, built with HTML, CSS, JavaScript, Bootstrap, MongoDB, Express, React, and Node.js.
               </p>
               <a
                 href="https://rentaplace.onrender.com/listings"
